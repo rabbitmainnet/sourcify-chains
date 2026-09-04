@@ -1,0 +1,97 @@
+{
+  "lastRunAt": "2026-09-04T17:23:23.803Z",
+  "pendingChanges": {
+    "remove-fetchUsing-51-blocksScanApi": {
+      "type": "remove-fetchUsing",
+      "chainId": 51,
+      "key": "blocksScanApi",
+      "consecutiveRuns": 9,
+      "firstSeenAt": "2026-09-01T06:54:58.001Z",
+      "lastSeenAt": "2026-09-04T17:23:23.803Z"
+    },
+    "remove-discoveredBy-51-chain-overrides": {
+      "type": "remove-discoveredBy",
+      "chainId": 51,
+      "key": "chain-overrides",
+      "consecutiveRuns": 9,
+      "firstSeenAt": "2026-09-01T06:54:58.001Z",
+      "lastSeenAt": "2026-09-04T17:23:23.803Z"
+    },
+    "change-traceSupport-133-https://lb.drpc.org/ogrpc?network=hashkey-testnet&dkey={API_KEY}": {
+      "type": "change-traceSupport",
+      "chainId": 133,
+      "provider": "https://lb.drpc.org/ogrpc?network=hashkey-testnet&dkey={API_KEY}",
+      "from": "trace_transaction",
+      "to": "debug_traceTransaction",
+      "consecutiveRuns": 9,
+      "firstSeenAt": "2026-09-01T06:54:58.001Z",
+      "lastSeenAt": "2026-09-04T17:23:23.803Z"
+    },
+    "remove-rpc-1315-https://{SUBDOMAIN}.story-aeneid.quiknode.pro/{API_KEY}/": {
+      "type": "remove-rpc",
+      "chainId": 1315,
+      "provider": "https://{SUBDOMAIN}.story-aeneid.quiknode.pro/{API_KEY}/",
+      "consecutiveRuns": 5,
+      "firstSeenAt": "2026-09-02T17:37:06.111Z",
+      "lastSeenAt": "2026-09-04T17:23:23.803Z"
+    },
+    "remove-discoveredBy-1315-quicknode": {
+      "type": "remove-discoveredBy",
+      "chainId": 1315,
+      "key": "quicknode",
+      "consecutiveRuns": 5,
+      "firstSeenAt": "2026-09-02T17:37:06.111Z",
+      "lastSeenAt": "2026-09-04T17:23:23.803Z"
+    },
+    "change-traceSupport-1111-https://lb.drpc.org/ogrpc?network=wemix&dkey={API_KEY}": {
+      "type": "change-traceSupport",
+      "chainId": 1111,
+      "provider": "https://lb.drpc.org/ogrpc?network=wemix&dkey={API_KEY}",
+      "from": "debug_traceTransaction",
+      "to": null,
+      "consecutiveRuns": 3,
+      "firstSeenAt": "2026-09-03T17:32:32.427Z",
+      "lastSeenAt": "2026-09-04T17:23:23.803Z"
+    },
+    "change-traceSupport-48898-https://lb.drpc.org/ogrpc?network=zircuit-garfield-testnet&dkey={API_KEY}": {
+      "type": "change-traceSupport",
+      "chainId": 48898,
+      "provider": "https://lb.drpc.org/ogrpc?network=zircuit-garfield-testnet&dkey={API_KEY}",
+      "from": "debug_traceTransaction",
+      "to": null,
+      "consecutiveRuns": 2,
+      "firstSeenAt": "2026-09-04T07:03:55.096Z",
+      "lastSeenAt": "2026-09-04T17:23:23.803Z"
+    },
+    "change-traceSupport-61-https://lb.drpc.org/ogrpc?network=ethereum-classic&dkey={API_KEY}": {
+      "type": "change-traceSupport",
+      "chainId": 61,
+      "provider": "https://lb.drpc.org/ogrpc?network=ethereum-classic&dkey={API_KEY}",
+      "from": "trace_transaction",
+      "to": "debug_traceTransaction",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-09-04T17:23:23.803Z",
+      "lastSeenAt": "2026-09-04T17:23:23.803Z"
+    },
+    "change-traceSupport-100-https://lb.drpc.org/ogrpc?network=gnosis&dkey={API_KEY}": {
+      "type": "change-traceSupport",
+      "chainId": 100,
+      "provider": "https://lb.drpc.org/ogrpc?network=gnosis&dkey={API_KEY}",
+      "from": "trace_transaction",
+      "to": "debug_traceTransaction",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-09-04T17:23:23.803Z",
+      "lastSeenAt": "2026-09-04T17:23:23.803Z"
+    },
+    "change-traceSupport-196-https://lb.drpc.org/ogrpc?network=xlayer&dkey={API_KEY}": {
+      "type": "change-traceSupport",
+      "chainId": 196,
+      "provider": "https://lb.drpc.org/ogrpc?network=xlayer&dkey={API_KEY}",
+      "from": "trace_transaction",
+      "to": "debug_traceTransaction",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-09-04T17:23:23.803Z",
+      "lastSeenAt": "2026-09-04T17:23:23.803Z"
+    }
+  }
+}
